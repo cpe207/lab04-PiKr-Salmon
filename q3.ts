@@ -3,7 +3,7 @@ function primeNumber(a : number) {
   /* Your code here */
   let found : number = 1;
   if(a <= 1){
-    return "No";
+    return "NO";
   }
 
   let b : number[] = [2,3,5,7];
@@ -15,10 +15,10 @@ function primeNumber(a : number) {
   }
 
   if(found == 1){
-    return "Yes";
+    return "YES";
   }
   else{
-    return "No";
+    return "NO";
   }
 }
 

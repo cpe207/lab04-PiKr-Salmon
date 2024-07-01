@@ -3,7 +3,7 @@ function primeNumber(a) {
     /* Your code here */
     var found = 1;
     if (a <= 1) {
-        return "No";
+        return "NO";
     }
     var b = [2, 3, 5, 7];
     for (var i = 0; i < b.length; i++) {
@@ -13,10 +13,10 @@ function primeNumber(a) {
         }
     }
     if (found == 1) {
-        return "Yes";
+        return "YES";
     }
     else {
-        return "No";
+        return "NO";
     }
 }
 var d1 = 10;
